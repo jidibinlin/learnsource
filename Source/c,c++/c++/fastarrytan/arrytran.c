@@ -1,33 +1,31 @@
-#include<iostream>
-
-using namespace std;
+#include<stdio.h>
+#define Maxsize 16
 
 typedef struct {
-	int i,j;
 	int e;
+	int i,j;
 }Triple;
 
 typedef struct {
-	Triple data [16];
+	Triple data[Maxsize];
 	int mu,nu,tu;
+
 }TSMatrix;
 
-int ElemLocate(TSMatrix *arry,int m,int n);
-
+int ElemLocate(TSMatrix * arry,int m,int n);
+	
 void display(TSMatrix * arry1);
 
-void Transpose(TSMatrix * arry1,TSMatrix * arry2);
+TSMatrix fasttrans(TSMatrix * arry);
 
-int main(void)
+int main()
 {
+	
 	TSMatrix arry1;
 	TSMatrix arry2;
 	arry1.mu=4;
 	arry1.nu=4; 
-	arry1.tu=3;
-    arry2.mu=4;
-    arry2.nu=4;
-    arry2.tu=3;
+	arry1.tu=4;
 	arry1.data[0].e=1;
 	arry1.data[0].i=0;
 	arry1.data[0].j=3;
@@ -37,12 +35,11 @@ int main(void)
 	arry1.data[2].e=3;
 	arry1.data[2].i=0; 
 	arry1.data[2].j=1;
+
 	display(&arry1);
-	Transpose(&arry1,&arry2);
-	printf("\n");
+	arry2=fasttrans(&arry1);
 	display(&arry2);
 }
-
 int ElemLocate(TSMatrix * arry,int m,int n)
 {
 	for(int i=0;i<16;i++)
@@ -71,27 +68,30 @@ void display(TSMatrix * arry1)
 	}
 }
 
-void Transpose(TSMatrix * arry1,TSMatrix * arry2)
+TSMatrix fasttrans(TSMatrix * arry)
 {
-	arry2->tu=arry1->tu;
-	arry2->mu=arry1->nu;
-	arry2->nu=arry1->mu;
-	if(arry2->tu)
+	TSMatrix arry2;
+	arry2.tu=arry->tu;
+	arry2.mu=arry->nu;
+	arry2.nu=arry->mu;
+	int num[4]={0};
+	int cpot[4]={0};
+	if(arry2.tu)
 	{
-		int q=1;
-		for(int col=0;col<arry1->nu;col++)
-		{
-			for(int p=0;p<arry1->tu;p++)
-			{
-				if(arry1->data[p].j==col)
-				{
-					arry2->data[q].i=arry1->data[p].j;
-					arry2->data[q].j=arry1->data[p].i;
-					arry2->data[q].e=arry1->data[p].e;
-					q++;
-				}
-			}
-		}
+		for(int t=0;t<arry2.tu;t++)
+			num[arry->data[t].j]++;
+		for(int t=1;t<4;t++)
+			cpot[t]=cpot[t-1]+num[t-1];
 	}
-	arry2=arry1;
+	int q;
+	for(int i=0;i<arry->nu;i++)
+	{
+		int col=arry->data[i].j;
+		q=cpot[col];
+		arry2.data[i].e=arry->data[q].e;
+		arry2.data[i].i=arry->data[q].j;
+		arry2.data[i].j=arry->data[q].i;
+	}
+	return arry2;
+
 }
