@@ -4,49 +4,15 @@ import java.awt.*;
 
 public class example01 {
     public static void main(String[] args) {
-        new Layout("GridBagLayout");
+        Frame f=new Frame("flowlayout");//create a frame
+        f.setLayout(new FlowLayout(FlowLayout.LEFT,50,50));//set flow layout manager
+        f.setSize(400,300);//size of the frame
+        f.setLocation(300,200);//loacation of the frame
+        f.add(new Button("first"));//add button
+        f.add(new Button("second"));
+        f.add(new Button("third"));
+        f.setVisible(true);//set the visibility
     }
 }
 
-class Layout extends Frame {
-    public Layout(String title) {
-        GridBagLayout layout = new GridBagLayout();
-        GridBagConstraints c = new GridBagConstraints();
-        this.setLayout(layout);
-        c.fill = GridBagConstraints.BOTH;
-        c.weightx = 1;
-        c.weighty = 1;
-        this.addComponent("btn1", layout, c);
-        this.addComponent("btn2", layout, c);
-        this.addComponent("btn3", layout, c);
-        c.gridwidth = GridBagConstraints.REMAINDER;
-        this.addComponent("btn4", layout, c);
-        c.weightx = 0;
-        c.weighty = 0;
-        this.addComponent("btn5", layout, c);
-        c.gridwidth = 1;
-        this.addComponent("btn6", layout, c);
-        c.gridwidth = GridBagConstraints.REMAINDER;
-        this.addComponent("btn7", layout, c);
-        c.gridheight = 2;
-        c.gridwidth = 1;
-        c.weightx = 2;
-        c.weighty = 2;
-        this.addComponent("btn8", layout, c);
-        c.gridwidth = GridBagConstraints.REMAINDER;
-        c.gridheight = 1;
-        this.addComponent("btn9", layout, c);
-        this.addComponent("btn9", layout, c);
-        this.setTitle(title);
-        this.pack();
-        this.setVisible(true);
-    }
 
-    private void addComponent(String name, GridBagLayout layout, GridBagConstraints c) {
-        Button bt = new Button(name);
-        layout.setConstraints(bt, c);
-        this.add(bt);
-    }
-
-
-}

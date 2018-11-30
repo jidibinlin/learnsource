@@ -1,6 +1,5 @@
-#include<iostream>
+#include<stdio.h>
 
-using namespace std;
 
 typedef struct {
 	int i,j;

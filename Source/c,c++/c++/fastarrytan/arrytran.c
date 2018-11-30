@@ -1,13 +1,12 @@
 #include<stdio.h>
-#define Maxsize 16
 
 typedef struct {
-	int e;
 	int i,j;
+	int e;
 }Triple;
 
 typedef struct {
-	Triple data[Maxsize];
+	Triple data[16];
 	int mu,nu,tu;
 
 }TSMatrix;
@@ -25,7 +24,10 @@ int main()
 	TSMatrix arry2;
 	arry1.mu=4;
 	arry1.nu=4; 
-	arry1.tu=4;
+	arry1.tu=3;
+	arry2.mu=4;
+	arry2.nu=4;
+	arry2.tu=3;
 	arry1.data[0].e=1;
 	arry1.data[0].i=0;
 	arry1.data[0].j=3;
@@ -35,7 +37,6 @@ int main()
 	arry1.data[2].e=3;
 	arry1.data[2].i=0; 
 	arry1.data[2].j=1;
-
 	display(&arry1);
 	arry2=fasttrans(&arry1);
 	display(&arry2);
