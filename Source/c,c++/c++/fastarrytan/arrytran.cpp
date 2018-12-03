@@ -1,5 +1,4 @@
 #include<stdio.h>
-
 typedef struct {
 	int i,j;
 	int e;
@@ -8,18 +7,15 @@ typedef struct {
 typedef struct {
 	Triple data[16];
 	int mu,nu,tu;
-
 }TSMatrix;
-
 int ElemLocate(TSMatrix * arry,int m,int n);
-	
+
 void display(TSMatrix * arry1);
 
 TSMatrix fasttrans(TSMatrix * arry);
 
 int main()
 {
-	
 	TSMatrix arry1;
 	TSMatrix arry2;
 	arry1.mu=4;
@@ -39,6 +35,7 @@ int main()
 	arry1.data[2].j=1;
 	display(&arry1);
 	arry2=fasttrans(&arry1);
+	printf("\n");
 	display(&arry2);
 }
 int ElemLocate(TSMatrix * arry,int m,int n)
@@ -81,7 +78,7 @@ TSMatrix fasttrans(TSMatrix * arry)
 	{
 		for(int t=0;t<arry2.tu;t++)
 			num[arry->data[t].j]++;
-		for(int t=1;t<4;t++)
+		for(int t=1;t<arry->nu;t++)
 			cpot[t]=cpot[t-1]+num[t-1];
 	}
 	int q;
@@ -94,5 +91,4 @@ TSMatrix fasttrans(TSMatrix * arry)
 		arry2.data[i].j=arry->data[q].i;
 	}
 	return arry2;
-
 }

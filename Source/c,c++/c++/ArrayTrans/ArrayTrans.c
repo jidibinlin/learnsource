@@ -1,6 +1,4 @@
 #include<stdio.h>
-
-
 typedef struct {
 	int i,j;
 	int e;
@@ -69,6 +67,7 @@ void display(TSMatrix * arry1)
 		printf("\n");
 	}
 }
+
 
 void Transpose(TSMatrix * arry1,TSMatrix * arry2)
 {
