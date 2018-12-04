@@ -1,1 +1,83 @@
-* 
+* AWT events solution 
+  - Event: packaged the special events that happend on the GUI sdk(ususally an execute made by user)
+  - Events Source: the place where events happend.
+  - Listener:have the responseablity to monitor the events happend on the Events Source,and give the solution to handle the events
+  - Events processor: the solution that used by Listenerlets have an instence
+** let`s have a example
+	#+BEGIN_SRC java
+	import java.awt.*;	
+	import java.event.*;
+
+	public class AwtEvents {
+        public static void main(String[] args){
+            Frame f=new Frame();
+			f.setSize(400,300);
+			f.setLocation(300,200);
+			f.setVisible(true);
+			MyWindowListner ml=new MyWindowListner();
+			f.addWindowListener(ml);
+		    }
+		}
+
+    class MyWindowListner implements WindowListener {//create the listener to monitor the events
+	    public void windowClosing(WindowEvent e){//create a processor way to handle the events 
+            Window window = e.getWindow();
+			window.setVisible(false);
+			window.dispose();
+        }
+
+        public void windowActivated(WindowEvent e){
+
+		}
+
+		public void windowClosed(WindowEvent e) {
+
+		}
+		
+		public void windowDeactivated(WindowEvent e){
+		
+		}
+
+
+		public void windowDeiconified(WindowEvent e){
+
+		}
+
+		public void windowIconified(WindowEvent e){
+		
+		}
+
+		public void windowOpened(WindowEvent e){
+
+		}
+    }
+	
+	#+END_SRC
+* Events adapter
+  - account to the instence above we can see that the WindowListener interface has defined seven ways that we need to implements;
+  - to make our source more simple jdk provide a adapter class.They are the WindowListener default instenced class(all the interface has been instenced)
+** let`s have a example
+    #+BEGIN_SRC java
+	import java.awt.*;
+	import java.awt.event.WindowAdapter;
+	import java.awt.event.WindowEvent;
+	import java.awt.event.WindowListener;
+	
+	public class AwtEvents {
+        public static void main(String[] args){
+            Frame f=new Frame();
+			f.setSize(400,300);
+			f.setLocation(300,200);
+			f.setVisible(true);
+			MyWindowListener ml=new MyWindowListener();
+			f.addWindowListener(ml);
+        }
+	}
+
+    class MyWindowListener extends WindowAdapter{
+        public void windowClosing(WindowEvent e){
+	        Window window=(Window) e.getComponent();
+            window.dispose();
+        }
+	}
+   #+END_SRC
