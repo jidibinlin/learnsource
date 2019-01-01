@@ -1,8 +1,6 @@
 package AwtEvents;
 import java.awt.*;
-import java.awt.event.WindowAdapter;
-import java.awt.event.WindowEvent;
-import java.awt.event.WindowListener;
+import java.awt.event.*;
 
 public class AwtEvents {
     public static void main(String[] args){
@@ -10,8 +8,13 @@ public class AwtEvents {
         f.setSize(400,300);
         f.setLocation(300,200);
         f.setVisible(true);
-        MyWindowListener ml=new MyWindowListener();
-        f.addWindowListener(ml);
+        Button btn = new Button("exit");
+        f.add(btn);
+        btn.addMouseListener(new MouseAdapter() {
+            public void mouseClicked(MouseEvent e){
+                System.exit(0);
+            }
+        });
     }
 }
 /*
@@ -49,9 +52,9 @@ class MyWindowListner implements WindowListener {
 }
 */
 
-class MyWindowListener extends WindowAdapter{
+/*class MyWindowListener extends WindowAdapter{
     public void windowClosing(WindowEvent e){
         Window window=(Window) e.getComponent();
         window.dispose();
     }
-}
+}*/

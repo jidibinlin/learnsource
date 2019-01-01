@@ -1,11 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="798139b3-8f41-4b81-bde5-b11aa87f3f35" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JDBC/example01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../c,c++/c++/fastarrytan/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/../c,c++/c++/fastarrytan/a.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../eclipse-workspace/awt/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../eclipse-workspace/awt/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="369b30b5-5bcc-45f7-8b83-cd185bcc3fdc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Swing/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Swing/src/Swingtest/Example15.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sql/supermarket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AwtEvents/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AwtEvents/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AwtEvents/out/production/AwtEvents/AwtEvents/AwtEvents.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AwtEvents/out/production/AwtEvents/AwtEvents/AwtEvents.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AwtEvents/out/production/AwtEvents/AwtEvents/MyWindowListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AwtEvents/src/AwtEvents/AwtEvents.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AwtEvents/src/AwtEvents/AwtEvents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../c,c++/c++/stackandqueue/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/../c,c++/c++/stackandqueue/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse-workspace/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse-workspace/awt/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse-workspace/awt/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse-workspace/awt/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse-workspace/awt/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse-workspace/awt/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse-workspace/awt/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse-workspace/awt/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse-workspace/awt/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse-workspace/awt/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse-workspace/awt/awt.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse-workspace/awt/out/production/awt/awt_day1/MyWindowListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse-workspace/awt/out/production/awt/awt_day1/example01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse-workspace/awt/src/awt_day1/example01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse-workspace/ktv/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse-workspace/ktv/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse-workspace/ktv/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse-workspace/ktv/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse-workspace/ktv/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse-workspace/ktv/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse-workspace/ktv/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse-workspace/ktv/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse-workspace/ktv/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse-workspace/ktv/ktv.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eclipse-workspace/ktv/src/ktv/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jdbc/JDBC/example01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JDBC/example01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../eclipse-workspace/.metadata/.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../eclipse-workspace/.metadata/.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../eclipse-workspace/.metadata/.mylyn/.taskListIndex/segments_1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../eclipse-workspace/.metadata/.mylyn/.taskListIndex/write.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../eclipse-workspace/.metadata/.mylyn/repositories.xml.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../eclipse-workspace/.metadata/.mylyn/tasks.xml.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../eclipse-workspace/.metadata/.plugins/com.genuitec.eclipse.devstyle/recent.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../eclipse-workspace/.metadata/.plugins/com.genuitec.eclipse.monitor/myeclipse-usage.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../eclipse-workspace/.metadata/.plugins/com.genuitec.eclipse.ui.common.platform/splash-fix.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../eclipse-workspace/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../eclipse-workspace/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../eclipse-workspace/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../eclipse-workspace/.metadata/.plugins/org.eclipse.core.resources/.root/1.tree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../eclipse-workspace/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../eclipse-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.genuitec.eclipse.monitor.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../eclipse-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.genuitec.eclipse.theming.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../eclipse-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ant.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../eclipse-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../eclipse-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.epp.logging.aeri.ide.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../eclipse-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../eclipse-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.m2e.discovery.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../eclipse-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.context.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../eclipse-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.monitor.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../eclipse-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.tasks.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../eclipse-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.editors.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../eclipse-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../eclipse-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../eclipse-workspace/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/index.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.9.1.20180912-1601.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../eclipse-workspace/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../eclipse-workspace/.metadata/.plugins/org.eclipse.tips.ide/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../eclipse-workspace/.metadata/.plugins/org.eclipse.ui.intro/introstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../eclipse-workspace/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../eclipse-workspace/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../eclipse-workspace/.metadata/version.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../note/java/javaorg/java-events.org" beforeDir="false" afterPath="$PROJECT_DIR$/../../note/java/javaorg/java-events.org" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../note/python/Lexical Conventions and Syntax.org" beforeDir="false" afterPath="$PROJECT_DIR$/../../note/python/Lexical Conventions and Syntax.org" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../supermarket ER Diagram.eddx" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,10 +101,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/JDBC/example01.java">
+        <entry file="file://$PROJECT_DIR$/src/sql/supermarket.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+            <state relative-caret-position="300">
+              <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -40,15 +124,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/JDBC/example01.java" />
+        <option value="$PROJECT_DIR$/src/sql/supermarket.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="960" />
-    <option name="y" value="32" />
-    <option name="width" value="960" />
-    <option name="height" value="1048" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="104" />
+    <option name="y" value="28" />
+    <option name="width" value="1717" />
+    <option name="height" value="940" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -56,16 +140,16 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543929108707" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545042238659" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/mysql-connector-java-8.0.13/mysql-connector-java-8.0.13.jar!/" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
@@ -82,12 +166,12 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="example01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JDBC.example01" />
-      <module name="jdbc" />
+    <configuration name="supermarket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sql.supermarket" />
+      <module name="javasql" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JDBC.*" />
+          <option name="PATTERN" value="sql.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,7 +181,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.example01" />
+        <item itemvalue="Application.supermarket" />
       </list>
     </recent_temporary>
   </component>
@@ -106,18 +190,18 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="798139b3-8f41-4b81-bde5-b11aa87f3f35" name="Default Changelist" comment="" />
-      <created>1543830119736</created>
+      <changelist id="369b30b5-5bcc-45f7-8b83-cd185bcc3fdc" name="Default Changelist" comment="" />
+      <created>1545037527580</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1543830119736</updated>
+      <updated>1545037527580</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="32" width="960" height="1048" extended-state="0" />
+    <frame x="0" y="2" width="1920" height="1078" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24065934" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10855615" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -127,15 +211,15 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33989072" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.410582" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3391494" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3873016" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3297062" />
+      <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -150,39 +234,47 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/JDBC/example01.java</url>
-          <line>13</line>
+          <url>file://$PROJECT_DIR$/src/sql/supermarket.java</url>
+          <line>11</line>
           <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/JDBC/example01.java</url>
-          <line>8</line>
-          <properties />
-          <option name="timeStamp" value="6" />
+          <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///usr/lib/jvm/java-8-jdk/src.zip!/java/sql/ResultSet.java">
+    <entry file="jar://$USER_HOME$/Downloads/mysql-connector-java-8.0.13/mysql-connector-java-8.0.13.jar!/com/mysql/cj/jdbc/exceptions/SQLExceptionsMapping.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="147" column="17" selection-start-line="147" selection-start-column="17" selection-end-line="147" selection-end-column="17" />
+        <state relative-caret-position="288">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-jdk/src.zip!/java/lang/String.java">
+    <entry file="jar://$USER_HOME$/Downloads/mysql-connector-java-8.0.13/mysql-connector-java-8.0.13.jar!/com/mysql/cj/jdbc/ClientPreparedStatement.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="97" column="19" selection-start-line="97" selection-start-column="19" selection-end-line="97" selection-end-column="19" />
+        <state relative-caret-position="174">
+          <caret line="767" selection-start-line="767" selection-end-line="767" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/JDBC/example01.java">
+    <entry file="jar://$USER_HOME$/Downloads/mysql-connector-java-8.0.13/mysql-connector-java-8.0.13.jar!/com/mysql/cj/jdbc/exceptions/SQLError.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        <state relative-caret-position="174">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/mysql-connector-java-8.0.13/mysql-connector-java-8.0.13.jar!/com/mysql/cj/jdbc/ConnectionImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="1261" selection-start-line="1261" selection-end-line="1261" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sql/supermarket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -238,11 +330,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>jdbc</last-edited>
+          <last-edited>javasql</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -262,6 +355,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>mysql-connector-java-8.0.13</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
