@@ -32,9 +32,6 @@ class Layout {//各个窗口的布局管理
         CardLayout layout = new CardLayout();
         fratran.add(pan[0], BorderLayout.CENTER);
         pan[0].setLayout(layout);
-        for(int i=1;i<6;i++){
-            Layout.funcLayout(pan[i]);
-        }
         pan[0].add(panName[0],pan[1]);
         pan[0].add(panName[1],pan[2]);
         pan[0].add(panName[2],pan[3]);
@@ -43,11 +40,36 @@ class Layout {//各个窗口的布局管理
         return layout;
     }
 
-    static void funcLayout(JPanel gspve) {//功能模块布局管理
+    static void funcLayout(JPanel gspve,JScrollPane[] funchild) {//功能模块布局管理
         GridBagLayout layout = new GridBagLayout();
         gspve.setLayout(layout);
         GridBagConstraints constraints = new GridBagConstraints();
-        constraints.gridwidth = 5;
-        constraints.gridheight = 5;
+
+        constraints.gridwidth = 1;
+        constraints.gridheight = 1;
+        constraints.fill=GridBagConstraints.BOTH;
+        layout.setConstraints(funchild[0],constraints);
+        gspve.add(funchild[0]);
+
+        constraints.gridwidth=GridBagConstraints.REMAINDER;
+        constraints.gridheight=1;
+        constraints.fill=GridBagConstraints.BOTH;
+        layout.setConstraints(funchild[1],constraints);
+        gspve.add(funchild[1]);
+
+        constraints.gridwidth=1;
+        constraints.gridheight=1;
+        constraints.fill=GridBagConstraints.BOTH;
+        layout.setConstraints(funchild[2],constraints);
+        gspve.add(funchild[2]);
+
+        constraints.gridwidth=GridBagConstraints.REMAINDER;
+        constraints.gridheight=1;
+        constraints.fill=GridBagConstraints.BOTH;
+        layout.setConstraints(funchild[3],constraints);
+        gspve.add(funchild[3]);
+
+        for(int i=0;i<4;i++)
+            funchild[i].setVisible(true);
     }
 }
