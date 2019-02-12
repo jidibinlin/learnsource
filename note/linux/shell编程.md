@@ -114,3 +114,32 @@
 
 # bash中自定义退出状态码
 ** exit [n] **
+
+# 选择执行
+```
+    if 判断条件; 
+    then
+        条件为真的分支代码
+    fi
+
+    if 判断条件; 
+    then 
+        条件为真的分支代码
+    else 
+        条件为假的分支代码
+    fi
+```
+
+# 用户交互
+## read
+* **Description**
+    * 从标准输入中读取数据
+* **Synopsis**
+        read [option]...[name...]
+* **options**
+    * -p 'PROMPT'
+    * -t 'TIMEOUT'
+
+# bash脚本的调试和检测
+* bash -n /path/to/some-script: 检测语法错误
+* bash -x /path/to/some-script: 调试

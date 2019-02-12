@@ -111,7 +111,7 @@ struct SData{
 - 当函数有多个参数时通过在定义时对后面的参数进行赋值来减少调用时的参数个数
 ```
     #include<iostream>
-    int add(int x,int y=0,int z=0);//add函数有三个形式参数其中最后一个被赋值了
+    int add(int x,int y,int z=0);//add函数有三个形式参数其中最后一个被赋值了
     int main()
     {
         add(10,20);//此时不用指定最后一个实参，因为定义时已经赋值；定义时已赋值的参数的位置若有实参将会被实参覆盖

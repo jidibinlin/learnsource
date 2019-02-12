@@ -1,5 +1,5 @@
 #include"head.h"  
- status MakeNode(Link *p,int e)//分配由p指向的值为e的节点，并返回ok;若分配失败返回error
+status MakeNode(Link *p,int e)//分配由p指向的值为e的节点，并返回ok;若分配失败返回error
     {
         *p=new LNode;
         if(!p)

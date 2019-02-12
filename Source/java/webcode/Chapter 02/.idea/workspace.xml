@@ -2,9 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a6dbf3f-0ad1-4ded-b93a-fc0b8ee5cb8c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../lisp/test.fasl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lisp/test.lisp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../note/linux/用户和组管理.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../note/linux/用户和组管理.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../c,c++/Data-Structure/课本算法实现/02/ExtenLinkedList/ExtenLinkedList-mian.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../../c,c++/Data-Structure/课本算法实现/02/ExtenLinkedList/ExtenLinkedList-mian.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../c,c++/c++/combine/func.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../c,c++/c++/combine/func.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../c,c++/c++/extendlink/func.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../c,c++/c++/extendlink/func.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../c,c++/c++/extendlink/func.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../c,c++/c++/extendlink/func.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../c,c++/c++/extendlink/function.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../c,c++/c++/extendlink/function.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../c,c++/c++/extendlink/link" beforeDir="false" afterPath="$PROJECT_DIR$/../../../c,c++/c++/extendlink/link" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../note/c.c++/class.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../note/c.c++/class.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../note/linux/bash的配置文件.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../note/linux/bash的配置文件.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../note/linux/shell编程.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../note/linux/shell编程.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../note/linux/shell编程之变量.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../note/linux/vim编辑器.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../note/linux/vim编辑器.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../note/linux/权限管理.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../note/linux/权限管理.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/Sample-Debug-IntelliJ/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,7 +24,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sample-Debug-IntelliJ/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="44" column="37" selection-start-line="44" selection-start-column="37" selection-end-line="44" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Sample-Debug-IntelliJ/web/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
@@ -28,10 +57,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="125" />
-    <option name="y" value="80" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="327" />
+    <option name="y" value="114" />
+    <option name="width" value="1390" />
+    <option name="height" value="1002" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -39,6 +68,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -47,16 +77,35 @@
               <item name="Chapter 02" type="b2602c69:ProjectViewProjectNode" />
               <item name="Sample-Debug-IntelliJ" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Chapter 02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sample-Debug-IntelliJ" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Chapter 02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sample-Debug-IntelliJ" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Chapter 02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sample-Debug-IntelliJ" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -82,16 +131,17 @@
       <updated>1548944472293</updated>
       <workItem from="1548944474891" duration="182000" />
       <workItem from="1548945096667" duration="1434000" />
+      <workItem from="1549719411656" duration="111000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1616000" />
+    <option name="totallyTimeSpent" value="1727000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="2" width="1920" height="1078" extended-state="6" />
+    <frame x="0" y="-4" width="1920" height="1084" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18249734" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18463181" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -128,15 +178,100 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Sample-Debug-IntelliJ/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Sample-Debug-IntelliJ/Sample-Debug-IntelliJ.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/Sample-Debug-IntelliJ/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="37" selection-start-line="44" selection-start-column="37" selection-end-line="44" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sample-Debug-IntelliJ/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>sample-debug-intellij:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>sample-debug-intellij</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: javax.servlet:javax.servlet-api:3.1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

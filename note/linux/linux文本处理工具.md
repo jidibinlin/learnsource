@@ -1,23 +1,23 @@
 # grep: 
-** description **    
+**description**    
 * Global search Regular expression and Print out the line.
 
-** function ** 
+**function** 
 * 文本搜索工具，根据用户指定的"模式"对目标文本进行匹配检查；打印匹配到的行;
-** parttern ** 
+**parttern** 
 *   由正则表达式字符及文本字符所编写的过滤条件
     * REGXP: 由一类特殊字符及文本所编写的某事，其中有些字符不表达字符字面意义，而表示控制或通配功能
         * 基本正则表达式: BRE(grep 默认支持)
         * 扩展正则表达式: ERE (grep -E,egrep)
     * 正则表达式引擎:
 
-** synopsis **  
+**synopsis**  
 
         grep [OPTION...] PATTERNS [FILE...]
         grep [OPTION...] -e PATTERNS ... [FILE...]
         grep [OPTION...] -f PATTERN_FILE ... [FILE...]
 
-** options **
+**options**
 
 * --color=auto: 对匹配到的文本着色显示
 * -v: 显示没有被pattern匹配到的行
@@ -30,7 +30,7 @@
 * -E: 使用ERE
 
 # 基本正则表达式原字符
-** 字符匹配 **
+**字符匹配**
 *   .: 匹配任意单个字符
 *   [0-9...]: 匹配指定范围内的任意单个字符
 *   [^]: 匹配指定范围外的任意单个字符
@@ -45,7 +45,7 @@
 *   [:digit:]  [:graph:]  [:lower:]  [:print:]
 *   [:punct:]  [:space:]  [:upper:]  [:xdigit:]
 
-** 匹配次数 **: 用在要指定次数的字符后面，用于指定前面的字符要出现的次数
+**匹配次数**: 用在要指定次数的字符后面，用于指定前面的字符要出现的次数
 * *:匹配前面的字符任意次
     * 例如: grep "x*y"能匹配到"abxy","xay","ay","xxxxxxy" 
 * . *: 任意长度的任意字符
@@ -56,7 +56,7 @@
     * \{0,n\}: 匹配前面的字符至多n次
     * \{m,\}: 匹配前面的字符至少m次
 
-** 位置锚定 **
+**位置锚定**
 * ^: 行首锚定: 用于模式最左侧
 * $: 行尾锚定: 用于模式最右侧
 * ^PATTERN$: 用于模式匹配整行
@@ -66,12 +66,12 @@
 * \> 或 \b: 词尾锚定: 用于单词模式的右侧
 * \<PATTERN\>: 匹配整个单词
 
-** 分组 ** 
+**分组** 
 * \(\): 将一个或多个字符捆绑在一起，当作一个整体处理 例如 \(xy\)*ab
     > Note 分组括号中的模式匹配到的内容会被正则表达式引擎记录于内部的变量中，这些变量的命名方式为: \1,\2,\3,.....
 * 后向引用: 引用前面的分组括号中的模式所匹配的字符串，(而非模式本身)
 
-** 练习 **
+**练习**
 * 显示/proc/meminfo文件中以大小s开头的行(要求: 使用两种方式)
         grep -i '^s' /proc/meminfo
         grep '^[Ss]' /proc/meminfo
@@ -92,39 +92,39 @@
         grep '\(^[[:alnum:]]*\>\).*\1$' /etc/passwd
         
 # egrep
-** egrep = grep -E **
+**egrep = grep -E**
 
-** synopsis **
+**synopsis**
 
     egrep [OPTIONS] PATTERN [FILE...]
 
 # PATTERNB扩展正则表达式
-** 字符匹配 ** 
+**字符匹配** 
 * .
 * [fdsafd]
 * [^]
 
-** 次数匹配 **
+**次数匹配**
 * *
 * ?
 * +
 * {m}
 * {m,n}
 
-** 锚定 **
+**锚定**
 * ^
 * $
 * \<,\b
 * \>,\b
 
-** 分组 **
+**分组**
 * ()
 > 后向引用: \1,\2
 
-** 或者 **
+**或者**
 * a|b
 
-** 练习 **
+**练习**
 * 显示/proc/meminfo文件中以大小s开头的行(要求: 使用两种方式)
         egrep -i '^s' /proc/meminfo
         egrep '^[Ss]' /proc/meminfo

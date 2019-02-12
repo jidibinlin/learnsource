@@ -8,7 +8,6 @@
 
 #include <stdio.h>
 #include "ExtenLinkedList.c" 							//**▲02 线性表**//
-
 /* 函数原型 */
 Status CmpGreater(LElemType_E e, LElemType_E data);		//判断data是否大于e //若data>e，返回TRUE
 void PrintElem(LElemType_E e);							//测试函数，打印整型

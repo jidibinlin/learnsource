@@ -29,6 +29,7 @@ status DestroyList(Linklist *L)//销毁线性链表L
         ClearList(L);
         L->len=0;
         L->head=L->tail=NULL;
+        return OK;
     }
 
 status ClearList(Linklist *L)//将线性链表L重置为空表，并释放原链表的节点空间
@@ -60,6 +61,7 @@ status DelFirst(Link *h,Link *q,Linklist *L)//已知h指向线性链表的头节
         (*h)=(*h)->Next;
         L->len--;
         FreeNode(k);
+        return OK;
     }
 status Append(Linklist *L,Link *s)//将s指针所指的一串节点链接在线性链表L的最后一个节点之后，并改变链表L的尾指针指向新的尾节点
     {
@@ -129,7 +131,7 @@ Position GetHead(Linklist L)//返回线性表L中头节点的位置
 Position GetLast(Linklist L)//返回线性表L中最后一个节点的位置
     {
         Link p=L.head;
-        do{
+       do{
             p=p->Next;
         }while(p->Next!=NULL);
         return p;
