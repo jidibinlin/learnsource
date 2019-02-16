@@ -144,7 +144,7 @@
             umount -h|-V
 * **fuser**
     * Description
-        * 查看和种植正在访问文件系统的进程
+        * 查看和终止正在访问文件系统的进程
     * Synopsis
             # fuser -v MOUNT_POINT: 查看
             # fuser -km MOUNT_POINT: 终止进程

@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a6dbf3f-0ad1-4ded-b93a-fc0b8ee5cb8c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../c,c++/Data-Structure/课本算法实现/02/ExtenLinkedList/ExtenLinkedList-mian.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../../c,c++/Data-Structure/课本算法实现/02/ExtenLinkedList/ExtenLinkedList-mian.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../c,c++/c++/combine/func.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../c,c++/c++/combine/func.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../c,c++/c++/extendlink/func.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../c,c++/c++/extendlink/func.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../c,c++/c++/extendlink/func.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../c,c++/c++/extendlink/func.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../c,c++/c++/extendlink/function.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../c,c++/c++/extendlink/function.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../c,c++/c++/extendlink/link" beforeDir="false" afterPath="$PROJECT_DIR$/../../../c,c++/c++/extendlink/link" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../note/c.c++/class.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../note/c.c++/class.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../note/linux/bash的配置文件.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../note/linux/bash的配置文件.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../note/linux/shell编程.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../note/linux/shell编程.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../note/linux/shell编程之变量.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../note/linux/vim编辑器.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../note/linux/vim编辑器.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../note/linux/权限管理.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../note/linux/权限管理.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/Sample-Debug-IntelliJ/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,11 +12,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Sample-Debug-IntelliJ/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
+            <state relative-caret-position="748">
               <caret line="44" column="37" selection-start-line="44" selection-start-column="37" selection-end-line="44" selection-end-column="37" />
             </state>
           </provider>
@@ -37,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Sample-Debug-IntelliJ/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="170">
+              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -56,11 +44,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="327" />
-    <option name="y" value="114" />
-    <option name="width" value="1390" />
-    <option name="height" value="1002" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="315" />
+    <option name="y" value="72" />
+    <option name="width" value="1360" />
+    <option name="height" value="1008" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -68,8 +56,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -132,16 +120,19 @@
       <workItem from="1548944474891" duration="182000" />
       <workItem from="1548945096667" duration="1434000" />
       <workItem from="1549719411656" duration="111000" />
+      <workItem from="1549982369822" duration="252000" />
+      <workItem from="1549983234873" duration="17000" />
+      <workItem from="1549983548616" duration="65000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1727000" />
+    <option name="totallyTimeSpent" value="2061000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-4" width="1920" height="1084" extended-state="6" />
+    <frame x="315" y="72" width="1360" height="1008" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18463181" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27245054" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -183,15 +174,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Sample-Debug-IntelliJ/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
+        <state relative-caret-position="748">
           <caret line="44" column="37" selection-start-line="44" selection-start-column="37" selection-end-line="44" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Sample-Debug-IntelliJ/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="170">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
         </state>
       </provider>
     </entry>
