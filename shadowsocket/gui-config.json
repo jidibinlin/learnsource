@@ -3,9 +3,9 @@
         {
             "method": "aes-256-cfb",
             "password": "1154090444",
-            "remarks": "japen",
-            "server": "167.179.90.67",
-            "server_port": 9976
+            "remarks": "9211",
+            "server": "70.36.103.21",
+            "server_port": 9393
         }
     ],
     "localPort": 1080,
