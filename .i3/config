@@ -2,7 +2,7 @@
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 
 # Set mod key (Mod1=<Alt>, Mod4=<Super>)
-set $mod Mod4
+set $mod Mod1
 
 # set default desktop layout (default is tiling)
 # workspace_layout tabbed <stacking|tabbed>
@@ -33,7 +33,7 @@ bindsym $mod+Return exec gnome-terminal
 bindsym $mod+Shift+q kill
 
 # start program launcher
-bindsym $mod+d exec rofi -show run
+bindsym $mod+d exec --no-startup-id rofi -show run
 
 # launch categorized menu
 bindsym $mod+z exec --no-startup-id morc_menu
@@ -141,10 +141,11 @@ bindsym $mod+Ctrl+Left workspace prev
 # to display names or symbols instead of plain workspace numbers you can use
 # something like: set $ws1 1:mail
 #                 set $ws2 2:
-set $ws1 1
-set $ws2 2
-set $ws3 3
-set $ws4 4
+set $ws1 
+set $ws2 
+set $ws3 
+set $ws4 
+
 # switch to workspace
 bindsym $mod+1 workspace $ws1
 bindsym $mod+2 workspace $ws2
@@ -154,10 +155,14 @@ bindsym $mod+4 workspace $ws4
 # Move focused container to workspace
 bindsym $mod+Ctrl+1 move container to workspace $ws1
 bindsym $mod+Ctrl+2 move container to workspace $ws2
+bindsym $mod+Ctrl+3 move container to workspace $ws3
+bindsym $mod+Ctrl+4 move container to workspace $ws4
 
 # Move to workspace with focused container
 bindsym $mod+Shift+1 move container to workspace $ws1; workspace $ws1
 bindsym $mod+Shift+2 move container to workspace $ws2; workspace $ws2
+bindsym $mod+Shift+3 move container to workspace $ws3; workspace $ws3
+bindsym $mod+Shift+4 move container to workspace $ws4; workspace $ws4
 
 # Open applications on specific workspaces
 # assign [class="Thunderbird"] $ws1
@@ -252,8 +257,7 @@ bindsym $mod+9 exec --no-startup-id blurlock
 # Autostart applications
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 exec --no-startup-id nitrogen --restore; sleep 1; compton -b
-exec --no-startup-id ibus-daemon -d
-#exec --no-startup-id feh --bg-scale "/home/qibin/Pictures/144f564e95b961f2eea0aaa0215a2711.jpg"
+exec --no-startup-id setxkbmap -option ctrl:swapcaps
 #exec --no-startup-id manjaro-hello
 exec --no-startup-id nm-applet
 exec --no-startup-id xfce4-power-manager
@@ -266,6 +270,7 @@ exec --no-startup-id start_conky_maia
 exec --no-startup-id xautolock -time 10 -locker blurlock
 exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
+exec --no-startup-id fcitx
 
 # Color palette used for the terminal ( ~/.Xresources file )
 # Colors are gathered based on the documentation:
@@ -301,9 +306,9 @@ set_from_resource $term_color15    color15
 # Start i3bar to display a workspace bar (plus the system information i3status if available)
 bar {
 	i3bar_command i3bar -t
-	height 25
 	status_command i3status
-	position bottom
+	position top
+  separator_symbol "  "
 
 ## please set your primary output first. Example: 'xrandr --output eDP1 --primary'
 #	tray_output primary
@@ -314,13 +319,12 @@ bar {
 #   font xft:URWGothic-Book 11
 	strip_workspace_numbers yes
 
-separator_symbol "    "
-
     colors {
-        background #222D31
-        statusline #F9FAF9
-        separator  #666666
-        # 工作区颜色         边框    背景    文字
+        background #10101000
+        statusline #FFFFFF
+        separator  #3399FF
+
+#                      border  backgr. text
         focused_workspace  #3297FD #11111100 #FFFFFF
         active_workspace   #FFFFFF #FFFFFF00 #FFFFFF
         inactive_workspace #111111 #11111100 #FFFFFF
@@ -328,6 +332,7 @@ separator_symbol "    "
         binding_mode       #990000 #99000000 #FFFFFF
     }
 }
+
 # hide/unhide i3status bar
 bindsym $mod+m bar mode toggle
 
