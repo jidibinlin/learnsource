@@ -7,7 +7,6 @@
  *********************************/
 
 #include "Maze.c"						//**¡ø03 Õ»ºÍ¶ÓÁÐ**//					
-
 int main(int argc, char *argv[])
 {
 	MazeType maze[N][N];

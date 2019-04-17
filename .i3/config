@@ -317,9 +317,9 @@ bar {
 separator_symbol "    "
 
     colors {
-        background #10101000
-        statusline #FFFFFF
-        separator  #3399FF
+        background #222D31
+        statusline #F9FAF9
+        separator  #666666
         # 工作区颜色         边框    背景    文字
         focused_workspace  #3297FD #11111100 #FFFFFF
         active_workspace   #FFFFFF #FFFFFF00 #FFFFFF
@@ -328,7 +328,6 @@ separator_symbol "    "
         binding_mode       #990000 #99000000 #FFFFFF
     }
 }
-
 # hide/unhide i3status bar
 bindsym $mod+m bar mode toggle
 
