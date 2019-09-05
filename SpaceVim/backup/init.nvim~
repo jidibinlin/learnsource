@@ -1,0 +1,1 @@
+let g:python_host_path = '/usr/bin/python2.7'

@@ -1,0 +1,4 @@
+function! VeoConfiLoad#before() abort
+    if exists('veonim')
+        set guifont = DejaVuSansMono\ Nerd\ Font:h 16
+endfunction

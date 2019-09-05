@@ -1,5 +1,4 @@
 #include<iostream>
-#include<stdlib.h>
 #include"head.h"
 using namespace std;
 int main(void)

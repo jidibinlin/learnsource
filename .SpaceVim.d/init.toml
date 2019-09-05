@@ -11,7 +11,7 @@
     # set spacevim theme. by default colorscheme layer is not loaded,
     # if you want to use more colorscheme, please load the colorscheme
     # layer
-    colorscheme = "gruvbox"
+    colorscheme = "one"
     colorscheme_bg = "dark"
     # Disable guicolors in basic mode, many terminal do not support 24bit
     # true colors
@@ -23,6 +23,12 @@
     buffer_index_type = 4
     enable_tabline_filetype_icon = true
     enable_statusline_mode = false
+    default_indent = 4
+    autocomplete_method = "coc"
+    lint_on_the_fly = false
+    enable_neomake = false
+    enable_ale = false
+    guifont = "DejaVuSansMono Nerd Font"
 
 # Enable autocomplete layer
 [[layers]]
@@ -31,44 +37,64 @@ auto-completion-return-key-behavior = "complete"
 auto-completion-tab-key-behavior = "smart"
 
 [[layers]]
+    name = "checkers"
+[[layers]]
 name = 'shell'
 default_position = 'top'
 default_height = 30
 
-[[layers]]
-name = 'lang#c'
 
 [[layers]]
-name = "core"
+  name =  "lang#markdown"
 
 [[layers]]
-name = "core#banner"
+  name = "VersionControl"
+
+[[layers]]
+    name = "python"
+
+[[layers]]
+  name = "git"
+
+[[layers]]
+  name = "lang#vim"
+
+[[layers]]
+    name = "colorscheme"
+[[layers]]
+    name = "debug"
+
+[[layers]]
+    name = "edit"
+
+[[layers]]
+    name = "fzf"
+
+[[layers]]
+    name = "lang#c"
+
+[[layers]]
+    name = "lsp"
+    filetypes = [
+        "c",
+        "cpp"
+    ]
+    [layers.override_cmd]
+        c = ["ccls"]
+        cpp =["ccls"]
+
+[[layers]]
+    name = "java"
+
+[[layers]]
+    name = "sudo"
+
+[[layers]]
+    name = "ui"
 
 
 [[layers]]
-name = "core#statusline"
+    name = "tools#zeal"
 
-
-[[layers]]
-name = "core#tabline"
-
-[[layers]]
-name = "sudo"
-
-[[layers]]
-name = "ui"
-
-[[layers]]
-name = "debug"
-
-[[layers]]
-name = "gtags"
-
-[[layers]]
-name="lang#markdown"
-
-[[layers]]
-name = 'colorscheme'
-[options]
-colorscheme = "onedark"
-colorscheme_bg = "dark"
+[[custom_plugins]]
+    name = "airblade/vim-gitgutter"

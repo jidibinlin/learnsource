@@ -1,0 +1,4 @@
+/home/qibin/projects/untitled/CMakeFiles/rebuild_cache.dir
+/home/qibin/projects/untitled/CMakeFiles/untitled.dir
+/home/qibin/projects/untitled/CMakeFiles/edit_cache.dir
+/home/qibin/projects/untitled/CMakeFiles/untitled_autogen.dir

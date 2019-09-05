@@ -1,0 +1,13 @@
+import javax.swing.JFrame;
+
+import java.util.*;
+
+public class test{
+    public static void main(String [] args){
+        System.out.println("helloworld");
+        String news= new Sring("test aaaa");
+        println(news);
+        JFrame f = new JFrame();
+        f.setLayout(new FlowLayout());;
+    }
+}

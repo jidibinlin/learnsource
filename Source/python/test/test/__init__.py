@@ -1,5 +1,5 @@
 #hello world
-
+import sys
 #print function
 
 print("hello world", "game over", "????")

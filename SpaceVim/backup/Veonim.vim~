@@ -1,0 +1,6 @@
+function! VeonimConfigLoad#before() abort
+    if exists('veonim')
+        set guifont=DejaVuSansMono\ Nerd\ Font:h 16
+        set linespace = 80
+    endif
+endfunction

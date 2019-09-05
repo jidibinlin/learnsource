@@ -88,19 +88,27 @@
     find | xargs COMMAND
 
 ## 练习
-* 1、查找/var/目录下属主为root, 且属组为mail的所有文件或目录
-		find /var \(-user root -a -group mail\)
+* 1、查找/var/目录下属主为root, 且属组为mail的所有文件或目录  
+		
+        find /var \(-user root -a -group mail\)
 * 2、查找/usr/目录下不属于root、bn、或hadoop的所有文件或目录
+
 		sudo find /usr ! \( -user root -o -user qibin \)
 * 3、查找/etc/目录下最近一周内其内容修改过，同时属主不为root，也不为hadoop的文件或目录
+
 		sudo find /etc/ -mtime -7 -a ! -user root -a ! -user qibin -ls
 * 4、查找当前系统上没有属主或属组，且最近一周内曾被访问过的文件或目录
+
 		find / \( -nouser -o -nogroup \) -a -atime -7	
 * 5、查找/etc/目录下大于1M且类型为普通文件的所有文件或目录
+
 		find /etc/ -size +1M -a -type f
 * 6、查找/etc/目录下所有用户都没有写权限的文件
+
 		find /etc/ ! -perm +222 -ls
 * 7、查找/etc/目录下至少有一类用户没有执行权限的文件
+
 		find /etc/ ! -perm -111 -ls
 * 8、查找/etc/init.d目录下, 所有用户都有执行权限, 且其他用户由写权限的文件
+
 		find /etc/ -perm -113 

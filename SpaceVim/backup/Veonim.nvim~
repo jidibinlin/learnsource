@@ -1,0 +1,18 @@
+function! VeonimConfigLoad#before() abort
+    if exists('veonim')
+        " built-in plugin manager
+        Plug 'sheerun/vim-polyglot'
+        Plug 'tpope/vim-surround'
+
+    " extensions for web dev
+    let g:vscode_extensions = [
+        \'vscode.typescript-language-features',
+        \'vscode.css-language-features',
+        \'vscode.html-language-features',
+    \]
+
+    set guifont=DejaVuSansMono\ Nerd\ Font:h 16
+    set linespace = 40
+
+    endif
+endfunction

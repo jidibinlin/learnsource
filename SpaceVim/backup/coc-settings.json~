@@ -1,0 +1,9 @@
+{
+    "languageserver": {
+        "clangd": {
+            "command": "docker exec cea765fbb029 clangd-8 ",
+            "filetypes": ["c","cpp"],
+            "rootPatterns": ["compile_flags.txt", "compile_commands.json", ".vim/", ".git/", ".hg/"]
+        }
+    }
+}

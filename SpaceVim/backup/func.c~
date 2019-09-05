@@ -1,0 +1,6 @@
+#include<stdio.h>
+#include "hello.h"
+int printfhello(){
+    printf("hello");
+    return 0;
+}

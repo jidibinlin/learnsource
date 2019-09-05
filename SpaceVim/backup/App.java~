@@ -1,0 +1,19 @@
+package supermarket;
+import GUI.login;
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        login log = new login();
+        log.logInUi();
+
+
+
+
+
+    }
+}
